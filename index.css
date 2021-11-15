@@ -1,0 +1,15 @@
+.greetings{
+	text-align: center;
+	font-size: 200%;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	background: grey;
+	height: 50px;
+	border: solid black;
+	width: 100%;
+	margin-left: 0px;
+	padding: 5px;
+}
