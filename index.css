@@ -17,3 +17,22 @@ footer{
 #about{
 	font-size: 125%;
 }
+
+#experience button{
+	display: inline;
+}
+
+.show{
+	background-color: grey;
+	border: solid black 2px;
+	padding: 3px;
+}
+
+table{
+	table-layout: fixed;
+	width: 100%;
+}
+
+th,td{
+	width: 33%;
+}
