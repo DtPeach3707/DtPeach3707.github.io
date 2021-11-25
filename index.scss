@@ -1,0 +1,49 @@
+
+@mixin name {
+	background: grey;
+	border: solid black 2px;
+}
+.greetings{
+	text-align: center;
+	font-size: 200%;
+}
+
+footer{
+	@include name();
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	margin-left: 0px;
+	padding: 5px;
+}
+
+#about{
+	font-size: 125%;
+}
+
+#experience{
+	button{
+		display: inline;
+	}
+}
+
+.show{
+    @include name();
+	padding: 3px;
+}
+
+table{
+	table-layout: fixed;
+	width: 100%;
+}
+
+th,td{
+	width: 33%;
+}
+
+ul{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 20px;
+}
