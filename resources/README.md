@@ -1,1 +1,3 @@
-Pdfs and other stuff for my website (mostly just my Resume)
+# Resources
+
+Pdfs, icons, and other pictures for my website
